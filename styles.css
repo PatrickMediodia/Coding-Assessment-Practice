@@ -1,0 +1,121 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+/* Set all font to Roboto */
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Reset all margins and padding in the page */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    position: fixed;
+    left: 0;
+    top:0;
+    width: 100%;
+    background-color: #7FFFD4;
+    margin: 0px;
+    padding: 10px;
+}
+
+.navbar-items {
+    list-style-type: none;
+    display: flex;
+    padding: 10px 0px 10px 0px;
+    width: 100%;
+}
+
+.navbar-item {
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.navbar-item-right {
+    background-color: #7FFFD4;
+    margin-left: auto;
+    margin-right: 35px;
+}
+
+.link {
+    text-decoration: none; 
+    color: black;
+}
+
+.login {
+    display:flex; 
+    position:absolute; 
+    top:0; 
+    bottom:0; 
+    right:0; 
+    left:0; 
+}
+
+.login-form {
+    background-color: #F0F0F0;
+    display: flex;
+    flex-direction:column;
+    padding: 60px;
+    margin: auto;
+    border: 1px solid grey;
+    border-radius: 5%;
+}
+
+.login-form > h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.login-form > label {
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+.login-form > input {
+    margin: 10px 0px 10px 0px;
+    box-sizing: border-box;
+    padding: 8px 20px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+.login-form > input[type="submit"] {
+    margin-top: 30px;
+    background-color: burlywood;
+    border: 1px solid black;
+}
+
+.posts {
+    max-width: 600px;
+    margin: 90px auto 90px auto;
+}
+
+.post {
+    border: 1px solid gray;
+    border-color: black;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 25px 0px 25px 0px;
+}
+
+.post > * {
+    margin-bottom: 15px;
+}
+
+.post-content {
+    text-align: justify;
+    text-justify: auto;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #7FFFD4;
+    padding: 20px;
+}
