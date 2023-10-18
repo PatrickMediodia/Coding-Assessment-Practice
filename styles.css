@@ -84,7 +84,7 @@ html {
 
 .posts {
     max-width: 600px;
-    margin: 30px auto 30px auto;
+    margin: 30px auto 90px auto;
 }
 
 .post {
@@ -114,4 +114,56 @@ html {
     text-align: center;
     background-color: #7FFFD4;
     padding: 20px 0px 20px 0px;
+}
+
+.background {
+    width: 100%; 
+}
+.background-image {
+    max-height: 500px;
+    height: 70%;
+    width: 100%;
+}
+
+.about-content {
+    text-align: center;
+    color: lightgoldenrodyellow;
+    font-size: 32px;
+    font-weight: 200;
+    font-style: italic;
+    margin: 20px auto 20px auto;
+}
+
+.card {
+    width: 768px;
+    display: flex;
+    flex-direction: row;
+    margin: 50px auto 90px auto;
+}
+
+.sample-image {
+    max-width: 300px;
+    border-radius: 50%;
+}
+
+.card-text {
+    margin-left: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.card-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.card-subtitle {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card-content {
+    font-size: 16px;
+    text-align: justify;
 }
