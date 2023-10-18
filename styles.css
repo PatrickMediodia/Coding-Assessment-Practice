@@ -98,6 +98,7 @@ html {
     display: flex;
     flex-direction: column;
     margin: 25px 0px 25px 0px;
+    background-color: #F0F0F0;
 }
 
 .post > * {
